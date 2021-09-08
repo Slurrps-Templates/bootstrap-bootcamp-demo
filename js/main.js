@@ -1,8 +1,23 @@
 //This is the js for the map to load on the page
-var mymap = L.map('mapid').setView([42.361145, -71.057083], 18);
+
+//Map variable set to an instance of L.map grabbing the ID of the map container
+//Also turning off all control to make a static map
+//Then setting the view to the location of the businuess
+var mymap = L.map('mapid', { dragging: false,
+    touchZoom: false,
+    scrollWheelZoom: false,
+    doubleClickZoom: false,
+    boxZoom: false,
+    tap: false,
+    keyboard: false,
+    zoomControl: false,
+    attributionControl: false,
+    prefix: false}).setView([42.361145, -71.057083], 18);
 
 //Create a constant marker to put on the map with the incomming latitude and longitude
+//Add to the map
 const marker = L.marker([42.361145, -71.057083]).addTo(mymap);
+
 //set marker latitude and longitude
 marker.setLatLng([42.361145, -71.057083]);
 
