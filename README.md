@@ -1,6 +1,6 @@
 # bootstrap-bootcamp-demo
 
-![Design preview for the bootcamp landing page](./demo/bootcamp-demo-img.png)
+![Design preview for the bootcamp landing page](./demo/bootcamp-demo-img.jpg)
 
 ## This is a demo of bootstrap 5
 
