@@ -1,0 +1,30 @@
+/*Ads in a empty block to pad the page down and have the nav display properly*/
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/*Sets the width and height of the map on the bottom of the page*/
+#mapid {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+}
+
+/*custom blue property to be applied to sections or components*/
+.blue {
+    background-color: #3A7CA5;
+}
+
+/*custom font color*/
+.text-blue {
+    color: #81C3D7;
+}
+
+/*Media query for medium screens to set the width of the input news-input*/
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
