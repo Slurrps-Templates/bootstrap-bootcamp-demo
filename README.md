@@ -1,5 +1,7 @@
 # bootstrap-bootcamp-demo
 
+[Live Demo](https://slurrps-mcgee.github.io/bootstrap-bootcamp-demo/)
+
 ![Design preview for the bootcamp landing page](./demo/bootcamp-demo-img.jpg)
 
 ## This is a demo of bootstrap 5
